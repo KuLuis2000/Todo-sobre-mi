@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px) {
+  header {
+    text-align: center;
+    margin-top: 30px !important;
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+
+  .nombre {
+    margin-top: 15px;
+    font-size: 40px;
+    line-height: 1.5;
+  }
+
+  .picture {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .enlace {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 95%;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  footer { 
+    width: 90%;
+    margin: auto;
+    padding: 0%;
+  }
+
+  .whatsapp-btn {
+    margin-left: 66%;
+    margin-bottom: 20px;
+  }
+}

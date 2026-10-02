@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #333;
+  color: white;
+  background-image: url(imagenes/fondo.gif);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  margin-top: 30px !important;
+  font-size: 30px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: -50px !important;
+}
+
+.perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.nombre {
+  margin-top: 15px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.enlace {
+  box-shadow: 0 0 20px rgba(252, 253, 253, 0.952);
+  color: white;
+  border: 2px white solid;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  padding: 10px;
+  font-size: 50px;
+  display: inline-flex;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.enlace:hover {
+  box-shadow: 0 0 40px rgb(244, 245, 247);
+  transform: translateY(-3px);
+}
+
+.picture {
+  width: 90px;
+  border-radius: 100%;
+  overflow: hidden !important;
+}
+
+.picture img {
+  width: 100%;
+  display: block !important;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+footer {
+  box-sizing: border-box;
+  padding: 40px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.logo_whats {
+  width: 80px;
+  height: 80px;
+}
+
+.whatsapp-btn {
+  overflow: hidden;
+  font-size: 50px;
+  align-items: center;
+  gap: 8px; 
+  border: 2px solid #25d366;
+  border-radius: 100%;
+  margin-left: 90%;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 20px rgba(37, 211, 101, 0.774);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  display: inline-flex;
+}
+.whatsapp-btn:hover {
+  box-shadow: 0 0 40px rgba(37, 211, 102, 0.8);
+  transform: translateY(-3px);
+}
